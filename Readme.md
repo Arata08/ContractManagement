@@ -1,8 +1,12 @@
 # 运行环境：
 
-jdk 17
+### jdk 17
 
-tomcat 9
+### tomcat 9
+
+## 角色功能设计
+
+![img](file:///C:\Users\29382\AppData\Local\Temp\ksohtml31672\wps1.jpg)
 
 ![image-20250612090325545](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612090325545.png)
 
