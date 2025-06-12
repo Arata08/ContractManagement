@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.contract.mapper.ApprovalHistoryMapper">
+    <resultMap id="approvalMap" type="com.contract.entity.Approval">
+        <id property="approvalId" column="approval_id" />
+        <result property="contractId" column="contract_id" />
+        <result property="approver" column="approver" />
+        <result property="approvalDate" column="approval_date" />
+        <result property="status" column="status" />
+    </resultMap>
+
+    <insert id="insertApproval" parameterType="com.contract.entity.Approval">
+        INSERT INTO approval (contract_id, approver, approval_date, status)
+        VALUES (#{contractId}, #{approver}, #{approvalDate}, #{status})
+    </insert>
+
+    <select id="getApprovalsByContractId" resultMap="approvalMap">
+        SELECT * FROM approval WHERE contract_id = #{contractId}
+    </select>
+    <select id="getAllHistoryApprovals" resultType="com.contract.entity.Approval" resultMap="approvalMap">
+        SELECT * FROM approval
+    </select>
+
+    <update id="updateApprovalStatus" parameterType="com.contract.entity.Approval">
+        UPDATE approval
+        SET status = #{status}
+        WHERE approval_id = #{approvalId}
+    </update>
+</mapper>

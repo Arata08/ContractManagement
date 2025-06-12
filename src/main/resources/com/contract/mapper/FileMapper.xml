@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.contract.mapper.FileMapper">
+    <resultMap id="fileResultMap" type="com.contract.entity.EnterpriseFile">
+        <id property="fileId" column="file_id"/>
+        <result property="fileName" column="file_name"/>
+        <result property="filePath" column="file_path"/>
+        <result property="fileType" column="file_type"/>
+        <result property="uploadTime" column="upload_time"/>
+        <result property="uploadUserId" column="upload_user_id"/>
+        <result property="fileSize" column="file_size"/>
+        <result property="fileExtension" column="file_extension"/>
+    </resultMap>
+    <insert id="insertFile" parameterType="com.contract.entity.EnterpriseFile">
+        INSERT INTO enterprise_file (file_name, file_path, file_type, upload_user_id, file_size, file_extension)
+        VALUES (#{fileName}, #{filePath}, #{fileType}, #{uploadUserId}, #{fileSize}, #{fileExtension})
+    </insert>
+    <select id="selectAllFiles" resultType="com.contract.entity.EnterpriseFile" resultMap="fileResultMap">
+        SELECT * FROM enterprise_file
+    </select>
+    <select id="selectFileById" parameterType="java.lang.Long" resultType="com.contract.entity.EnterpriseFile" resultMap="fileResultMap">
+        SELECT * FROM enterprise_file WHERE file_id = #{fileId}
+    </select>
+    <delete id="deleteFile" parameterType="java.lang.Long">
+        DELETE FROM enterprise_file WHERE file_id = #{fileId}
+    </delete>
+</mapper>
