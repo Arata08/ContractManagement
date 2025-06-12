@@ -6,24 +6,24 @@
 
 ## 角色功能设计
 
-![image-20250612093924854](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093924854.png)
+![image-20250612094219027](./assets/image-20250612094219027.png)
 
-![image-20250612093948635](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093948635.png)
+![image-20250612094223173](./assets/image-20250612094223173.png)
 
 ## 合同管理
 
-![image-20250612093952905](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093952905.png)
+![image-20250612094225725](./assets/image-20250612094225725.png)
 
-![image-20250612093957771](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093957771.png)
+![image-20250612094228941](./assets/image-20250612094228941.png)
 
 ## 合同审批
 
-![image-20250612094000342](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094000342.png)
+![image-20250612094231319](./assets/image-20250612094231319.png)
 
 ## 模板管理
 
-![image-20250612094003413](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094003413.png)
+![image-20250612094233871](./assets/image-20250612094233871.png)
 
 ## 审批记录
 
-![image-20250612094006357](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094006357.png)
+![image-20250612094236874](./assets/image-20250612094236874.png)
