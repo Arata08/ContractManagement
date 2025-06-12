@@ -6,24 +6,24 @@
 
 ## 角色功能设计
 
-![img](file:///C:\Users\29382\AppData\Local\Temp\ksohtml31672\wps1.jpg)
+![image-20250612093924854](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093924854.png)
 
-![image-20250612090325545](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612090325545.png)
+![image-20250612093948635](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093948635.png)
 
 ## 合同管理
 
-![image-20250612090341217](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612090341217.png)
+![image-20250612093952905](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093952905.png)
 
-![image-20250612090352758](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612090352758.png)
+![image-20250612093957771](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612093957771.png)
 
 ## 合同审批
 
-![image-20250612090407884](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612090407884.png)
+![image-20250612094000342](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094000342.png)
 
 ## 模板管理
 
-![image-20250612091231327](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612091231327.png)
+![image-20250612094003413](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094003413.png)
 
 ## 审批记录
 
-![image-20250612091406004](C:\Users\29382\AppData\Roaming\Typora\typora-user-images\image-20250612091406004.png)
+![image-20250612094006357](D:\Documents\JavaProjects\ContractManagement\assets\image-20250612094006357.png)
